@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/createTrailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="Create New Trail" />
+
+        <ListView
+            android:id="@+id/trailsListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"> <!-- Adjust the weightSum based on the number of buttons -->
+
+            <Button
+                android:id="@+id/recordNavButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/activity_button"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_border"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/mapsNavButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/maps_button"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/groupsNavButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/groups_button"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/accountNavButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/account_button"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:background="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>

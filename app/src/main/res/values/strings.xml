@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">On The Go</string>
+    <!-- Strings related to login -->
+    <string name="spendscrap_logo">On The Go</string>
+    <string name="textview_create_account">Create a New Account</string>
+    <string name="textview_name_choose">Enter your first and last name</string>
+    <string name="prompt_firstname_choose">Firstname</string>
+    <string name="prompt_lastname_choose">Lastname</string>
+    <string name="textview_username_choose">Enter a valid Email</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_email_choose">Enter your Email</string>
+    <string name="prompt_email_confirm">Confirm your Email</string>
+    <string name="textview_password_choose">Create a password</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_choose">Choose a Password</string>
+    <string name="prompt_password_confirm">Confirm your password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_firstname">Not a valid first name</string>
+    <string name="invalid_lastname">Not a valid last name</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_trail_name">Not a valid trail name</string>
+    <string name="invalid_trail_difficulty"></string>
+    <string name="username_match_error">Usernames do not match</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="password_match_error">Passwords do not match</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_failed">"Failed to register"</string>
+    <string name="create_trail_failed">Failed to create trail</string>
+    <string name="balance_text">Balance</string>
+    <string name="activity_button">Record</string>
+    <string name="maps_button">Maps</string>
+    <string name="groups_button">Groups</string>
+    <string name="account_button">You</string>
+    <string name="title_activity_create_trail_maps">CreateTrailMapsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="trail_name_hint">Trail Name</string>
+</resources>
